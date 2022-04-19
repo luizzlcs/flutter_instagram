@@ -1,16 +1,49 @@
-# flutter_instagram
+<h1 align="center">DESAFIO DO MÓDULO MÃO NA MASSA</h1>
 
-A new Flutter project.
+<p align="center"> Replicando a página do instagram.</p>
 
-## Getting Started
+<p align="center">
+<img width="" height="270" src="assets/images/instagram.gif"/>
+</p>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### » Sobre o Desafio:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Com base no [Mocakup](https://www.figma.com/file/1MQcHq4mpxDp1lrX2QK9NG/Instagram-UI-Mockup-2.0-(Community)?node-id=0%3A1) desemvover o conteúdo aplicando personalização dos principais widgets estudados:
+    > Text
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    > Container
+
+    > SizedBox
+
+    > Row
+
+    > Column
+
+    > Stack
+
+    > IconAvatar
+
+    > Image
+
+    >icons
+
+    >Color
+
+    >NavigationBottomBar
+
+    > MediaQuery
+
+    > LayoutBuilder
+
+Ajustar cada wigets afim de deixar o layout o mais próximo possível do mockup.
+
+>[Mockup desafio de página do Instagram.](https://www.figma.com/file/1MQcHq4mpxDp1lrX2QK9NG/Instagram-UI-Mockup-2.0-(Community)?node-id=0%3A1)
+
+
+
+### Autor
+
+<img alt="Luiz Carlos" title="Luiz Carlos" src="https://avatars.githubusercontent.com/u/29442285?s=96&v=4" height="100" width="100" />
+
+[![LinkedIn Badge](https://img.shields.io/badge/-LUIZ_CARLOS-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luizzlcs/)](https://www.linkedin.com/in/luizzlcs/)
