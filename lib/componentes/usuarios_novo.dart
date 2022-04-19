@@ -157,9 +157,13 @@ class UsuariosNovo extends StatelessWidget {
                       ),
                     ),
                   ),
-                )
+                ),
               ],
             ),
+          ),
+          const Text(
+            'Seu story',
+            style: TextStyle(fontSize: 11),
           )
         ],
       ),

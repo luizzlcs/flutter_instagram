@@ -115,6 +115,10 @@ class UsuariosAoVivo extends StatelessWidget {
                 )
               ],
             ),
+          ),
+          const Text(
+            'Luiz Carlos',
+            style: TextStyle(fontSize: 11),
           )
         ],
       ),

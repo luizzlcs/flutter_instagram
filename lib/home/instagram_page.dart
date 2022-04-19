@@ -5,6 +5,7 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter_instagram/componentes/menu_page.dart';
 import 'package:flutter_instagram/componentes/usuarios_ao_vivo.dart';
 
+import '../componentes/body_page.dart';
 import '../componentes/usuarios_novo.dart';
 
 class InstagramPage extends StatelessWidget {
@@ -28,7 +29,7 @@ class InstagramPage extends StatelessWidget {
         },
         items: [
           BottomNavigationBarItem(
-            label: 'Câmera',
+            label: 'Home',
             icon: Image.asset('assets/images/Home.png'),
           ),
           BottomNavigationBarItem(
@@ -59,9 +60,18 @@ class InstagramPage extends StatelessWidget {
           return Column(
             children: [
               Container(
-                color: Colors.white,
-                height: 56 * 1.1,
+                //color: Color.fromARGB(255, 240, 124, 124),
+                height: 62 * 1.5,
+                width: MediaQuery.of(context).size.width,
+                decoration: const BoxDecoration(
+                    border: Border(
+                  bottom: BorderSide(
+                    width: 0.5 * 2,
+                    color: Colors.grey,
+                  ),
+                )),
                 child: ListView(
+                  addAutomaticKeepAlives: false,
                   scrollDirection: Axis.horizontal,
                   children: [
                     Container(
@@ -97,10 +107,12 @@ class InstagramPage extends StatelessWidget {
                   ],
                 ),
               ),
-              Container(
-                width: constraints.maxWidth * .5,
-                height: constraints.maxHeight * .5,
-                //color: Colors.white,
+              SingleChildScrollView(
+                child: Column(
+                  children: [
+                    BodyPage(),
+                  ],
+                ),
               ),
             ],
           );
