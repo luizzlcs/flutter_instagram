@@ -1,6 +1,6 @@
 <h1 align="center">DESAFIO DO MÓDULO MÃO NA MASSA</h1>
 
-<p align="center"> Replicando a página do instagram.</p>
+<p align="center"> Clonando a página do instagram.</p>
 
 <p align="center">
 <img width="" height="270" src="assets/images/instagram.gif"/>
