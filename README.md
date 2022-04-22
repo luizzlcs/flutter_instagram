@@ -9,7 +9,7 @@
 
 ### » Sobre o Desafio:
 
-- Com base no [Mocakup](https://www.figma.com/file/1MQcHq4mpxDp1lrX2QK9NG/Instagram-UI-Mockup-2.0-(Community)?node-id=0%3A1) desemvover o conteúdo aplicando personalização dos principais widgets estudados:
+- Com base no [Mocakup](https://www.figma.com/file/1MQcHq4mpxDp1lrX2QK9NG/Instagram-UI-Mockup-2.0-(Community)?node-id=0%3A1) desenvolver o conteúdo aplicando personalização dos principais widgets estudados:
     > Text
 
     > Container
